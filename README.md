@@ -36,7 +36,3 @@ GET: http://localhost:3000/seed
 ## The final step
 - open http://localhost/auth/signin
 - open http://localhost/auth/session if you have signed in
-## Authors
-
-- [@octokatherine](https://www.github.com/octokatherine)
-
