@@ -31,7 +31,7 @@ Open http://localhost:3000/ if works, then open
 ```url
 GET: http://localhost:3000/seed 
 ```
-**To seeding data**
+**For seeding data**
 
 ## The final step
 - open http://localhost/auth/signin
