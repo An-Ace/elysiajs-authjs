@@ -50,7 +50,8 @@ export const authConfig: AuthConfig = {
               credentialAccount: true,
               emailVerified: true,
               email: true,
-              isActive: true
+              isActive: true,
+              role: true,
               // userRole: { include: { permissions: true } },
             } 
           })
@@ -61,6 +62,7 @@ export const authConfig: AuthConfig = {
               id: user.id,
               email: user.email,
               isVerified: Boolean(user.emailVerified),
+              role: user.role,
               // permissions: user.userRole.permissions.map(item => item.name),
             }
           } else {
