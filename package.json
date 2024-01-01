@@ -3,13 +3,20 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch app.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@auth/core": "^0.19.0",
+    "@auth/prisma-adapter": "^1.0.12",
+    "@prisma/client": "^5.7.1",
+    "bcrypt": "^5.1.1",
+    "elysia": "latest",
+    "express-file-routing": "^3.0.3"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "@types/bcrypt": "^5.0.2",
+    "bun-types": "latest",
+    "prisma": "^5.7.1"
   },
-  "module": "src/index.js"
+  "module": "app.js"
 }
