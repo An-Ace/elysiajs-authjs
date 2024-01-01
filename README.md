@@ -6,7 +6,7 @@ This is an example of - [elysiajs](https://www.github.com/octokatherine) with [@
 To get started with this template, simply paste this command into your terminal:
 
 ```bash
-bun install
+bun install (windows-wsl/linux)
 ```
 
 - Change .env.example to .env
@@ -14,15 +14,15 @@ bun install
 then
 
 ```bash
-bunx prisma migrate dev (Linux)
+bunx prisma migrate dev (linux)
   or
-npx prisma migrate dev (windows-wsl)
+npx prisma migrate dev (windows-cmd)
 ```
 
 ## Run as Development
 To start the development server run:
 ```bash
-bun run dev
+bun run dev (windows-wsl/linux)
 ```
 
 Open http://localhost:3000/ if works, then open
