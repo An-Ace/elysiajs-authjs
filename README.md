@@ -1,5 +1,7 @@
 # Elysia JS with @auth/core & Prisma ORM
 
+This is an example for - [elysiajs](https://www.github.com/octokatherine) with [@auth/core](https://github.com/nextauthjs/next-auth) & [Prisma-ORM](https://github.com/prisma/prisma)
+
 ## Installaton
 To get started with this template, simply paste this command into your terminal:
 
@@ -34,3 +36,7 @@ GET: http://localhost:3000/seed
 ## The final step
 - open http://localhost/auth/signin
 - open http://localhost/auth/session if you have signed in
+## Authors
+
+- [@octokatherine](https://www.github.com/octokatherine)
+
