@@ -1,4 +1,5 @@
 # Elysia JS with @auth/core & Prisma ORM
+### Elysia JS is Express JS alternative, and 21x faster than Express JS
 
 This is an example of - [elysiajs](https://github.com/elysiajs/elysia) with [@auth/core](https://github.com/nextauthjs/next-auth) & [Prisma-ORM](https://github.com/prisma/prisma)
 
